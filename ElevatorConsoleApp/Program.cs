@@ -54,7 +54,7 @@ namespace ElevatorApp
             {
                 bool isValid = false;
 
-                UpdateStatuses(elevatorsList);
+                UpdateStatus(elevatorsList);
 
                 while (isValid == false)
                 {
@@ -131,7 +131,7 @@ namespace ElevatorApp
             }
         }
 
-        private static void UpdateStatuses(Elevator[] elevatorsList)
+        private static void UpdateStatus(Elevator[] elevatorsList)
         {
             Console.Clear();
 
